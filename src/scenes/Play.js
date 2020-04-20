@@ -127,8 +127,9 @@ class Play extends Phaser.Scene {
           boom.destroy();                     // remove explosion sprite
       });
       
-      this.p1Score += ship.points;
+      this.p1Score += 1;
       this.scoreLeft.text = this.p1Score;
+      
     }
 
   }
