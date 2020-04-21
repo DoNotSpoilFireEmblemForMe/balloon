@@ -87,7 +87,6 @@ class Play extends Phaser.Scene {
           this.scene.start("menuScene");
       }
 
-      this.cloudfront.tilePositionX -= 4;
       this.cloudback.tilePositionX -= 2;  // scroll tile sprite
 
       if (!this.gameOver) {               
