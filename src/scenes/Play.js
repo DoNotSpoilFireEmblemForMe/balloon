@@ -23,10 +23,10 @@ class Play extends Phaser.Scene {
       this.cloudfront = this.add.tileSprite(0, 0, 640, 480, 'cloudfront').setOrigin(0, 0);
       
       // white rectangle borders
-      this.add.rectangle(5, 5, 630, 32, 0xFFFFFF).setOrigin(0, 0);
-      this.add.rectangle(5, 443, 630, 32, 0xFFFFFF).setOrigin(0, 0);
-      this.add.rectangle(5, 5, 32, 455, 0xFFFFFF).setOrigin(0, 0);
-      this.add.rectangle(603, 5, 32, 455, 0xFFFFFF).setOrigin(0, 0);
+      this.add.rectangle(5, 5, 630, 32, 0x518551).setOrigin(0, 0);
+      this.add.rectangle(5, 443, 630, 32, 0x518551).setOrigin(0, 0);
+      this.add.rectangle(5, 5, 32, 455, 0x518551).setOrigin(0, 0);
+      this.add.rectangle(603, 5, 32, 455, 0x518551).setOrigin(0, 0);
 
       // green UI background
       //this.add.rectangle(37, 42, 566, 64, 0x00FF00).setOrigin(0, 0);
@@ -63,7 +63,7 @@ class Play extends Phaser.Scene {
           fontFamily: 'Courier',
           fontSize: '28px',
           backgroundColor: '#F3B141',
-          color: '#843605',
+          color: '#f5bd1f',
           align: 'right',
           padding: {
               top: 5,
