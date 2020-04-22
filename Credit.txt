@@ -1,3 +1,4 @@
       // credit to qubodup for bow sound from opengameart.org
       // credit to wubitog for baloonpop sound from opengameart.org
-      // Drew most art on Clip studio; used Animal Crossing Ballons as reference for the gift art
+      // Drew everything else on Clip Studio;
+      // Reference for the Gift based on Animal Crossing Balloons
