@@ -94,8 +94,8 @@ class Play extends Phaser.Scene {
           this.scene.start("menuScene");
       }
 
-      this.cloudfront.tilePositionX -= 4;
-      this.cloudback.tilePositionX -= 3;  // scroll tile sprite
+      this.cloudfront.tilePositionX -= 0.5;
+      this.cloudback.tilePositionX -= 1;  // scroll tile sprite
 
       if (!this.gameOver) {               
           this.p1Rocket.update();         // update rocket sprite
